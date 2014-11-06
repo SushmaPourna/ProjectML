@@ -13,3 +13,7 @@ The dataset contains attributes about the car like Field Name, Definition, Refer
 Using these information from the datasets, I would implement an algorithm in Python to predict if a auctioned car proves to be a good buy in future and for how many years.
 
 If need be, I can change the algorithm as per my project requirements.
+
+Preliminary work:
+There are websites which gives information about a car based on a primary key like the VIN. These provide history information about a car and let us decide whether or not to go ahead with the purchase. But this is only helpful if the person knows in and out about Automobiles.
+Predicting if the car would be worthy in the future would help many people decide about a car in one go without much ado. Based on the prediction, they can look into the history of the car to make a decision.
