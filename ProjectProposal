@@ -1,0 +1,15 @@
+Statement and Significance of the Project:
+To implement an algorithm that predicts if a used car purchased at an Auction is a good or bad deal.
+
+If your car paint is peeling, makes funny noises when you start driving and you have more than 10 things that you do not like about your car but none of those reasons prevent you from driving you car, then your car ‘IS NOT’ a Lemon.
+But if your car has been repaired 4 times continuously for the same defect and the defect is still not fixed then your car qualifies as a lemon.
+In order to eliminate/reduce the risk of purchasing a ‘Bad’ car, the dealer/ buyer must be able to predict if a used car is worth buying. Because of issues like tampered odometer, hidden mechanical repairs it might prove to be very expensive for the buyer with all the additional transportation cost, throw away repairs and market value cost.
+If the Buyer has information beforehand then, this algorithm can help predict if a particular car would be a Good/Bad buy.
+
+Problem approach and learning algorithm:
+I am implementing a model which is tested through a training process where it predicts the solution. Every time a prediction goes wrong, the model corrects and trains itself. I am planning implement this using SUPERVISED Learning and a Logical Regression algorithm.
+I have got the datasets from www.Kaggle.com .
+The dataset contains attributes about the car like Field Name, Definition, Reference ID, Purchase date, Auction, Vehicle Year, Vehicle Age, Make, Model, Trim, Submodel, Color, Transmission etc.
+Using these information from the datasets, I would implement an algorithm in Python to predict if a auctioned car proves to be a good buy in future and for how many years.
+
+If need be, I can change the algorithm as per my project requirements.
