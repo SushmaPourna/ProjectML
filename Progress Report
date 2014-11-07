@@ -1,0 +1,5 @@
+Analysis and understanding the Data.
+
+There are a Total of 72,983 instances described for 34 attributes in this dataset. 
+The dataset is unbalanced because Only 8,976 instances have “1” and the remaining is “0”. I am currently pruning the dataset by testing the attributes iteratively to choose only those, which help in reducing the complexity of the dataset and further predict better accuracy. The attributes PRIMEUNIT and AUCGUART have a lot of missing data and hence limit their use. When tested upon iteratively they made no difference in the class value prediction or mean absolute error or root mean squared error on Weka. I am also testing for the accuracy in parallel to pruning to check which algorithm works best to provide better accuracy.
+The AcquisitionType and KickDate mentioned in the Data dictionary are not present in the dataset. 
